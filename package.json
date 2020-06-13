@@ -1,0 +1,33 @@
+{
+  "name": "authenticated-api-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest --coverage --verbose",
+    "start": "node index.js",
+    "dev": "nodemon",
+    "lint": "eslint '**/*.js'",
+    "doc": "jsdoc -c ./docs/config/jsdoc.config.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsdoc": "^3.6.4",
+    "mongoose": "^5.9.18",
+    "morgan": "^1.10.0",
+    "supertest": "^4.0.2"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1",
+    "@code-fellows/supergoose": "^1.0.2"
+  }
+}
